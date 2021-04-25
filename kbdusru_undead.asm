@@ -220,7 +220,7 @@ palign
 
 vk2wchar4:
     vkrow4 VK_GRAVE,      SGCAPS, "`",      "~",      "`",      "~"
-    vkrow4 -1,            0,      "ё",      "Ё",      WCH_NONE, WCH_NONE
+    vkrow4 -1,            0,      "Ё",      "ё",      WCH_NONE, WCH_NONE
     vkrow4 "1",           SGCAPS, "1",      "!",      "¡",      "¹"
     vkrow4 "1",           0,      "1",      "!",      WCH_NONE, WCH_NONE
     vkrow4 "2",           SGCAPS, "2",      "@",      "@",      "²"

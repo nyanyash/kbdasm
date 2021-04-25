@@ -352,10 +352,10 @@ WLG = WCH_LGTR
 vk2wchar10:
     vkrow10 VK_DECIMAL,    8,  ".", ".", ".", ".", WNO, WNO, ",", ",", ",", ","
   if USE_DEAD_KEYS
-    vkrow10 VK_GRAVE,      8,  "`", "~", WDE, WDE, WNO, WNO, "ё", "Ё", "`", "~"
+    vkrow10 VK_GRAVE,      8,  "`", "~", WDE, WDE, WNO, WNO, "Ё", "ё", "`", "~"
     vkrow10 -1,            8,  WNO, WNO, "`", "~", WNO, WNO, WNO, WNO, WNO, WNO
   else
-    vkrow10 VK_GRAVE,      8,  "`", "~", WNO, WNO, WNO, WNO, "ё", "Ё", "`", "~"
+    vkrow10 VK_GRAVE,      8,  "`", "~", WNO, WNO, WNO, WNO, "Ё", "ё", "`", "~"
   end if
     vkrow10 "1",           8,  "1", "!", "¡", "¹", WNO, WNO, "1", "!", "¡", "¹"
     vkrow10 "2",           8,  "2", "@", "²", "½", WNO, WNO, "2", '"', "@", "²"
